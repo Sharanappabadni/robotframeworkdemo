@@ -10,7 +10,7 @@ Library  Collections
 User Must sign in to check out
     [Documentation]  This is some basic info about test
     [Tags]  Smoke
-    Open Browser  https://www.amazon.in/  chrome
+    Open Browser  https://www.amazon.in/  headlesschrome
     maximize browser window
     Wait Until Page Contains  Best Sellers
     Input Text  id=twotabsearchtextbox  ferrari 458
